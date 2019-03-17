@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center><h1 class="form-control" style="font-size:48px;color:red">{{ Title }}</h1> </center><br/>
+<div  class="form-control" style="font-size:32px;color:green" ><h3>{{ Description }}</h3></div><br/>
+
+{% for i in path %}
+<img src="{{ i }}" height="400" width="400" style="margin: 10px 0px 100px 100px" />
+{% endfor %}
+{% endblock %}
