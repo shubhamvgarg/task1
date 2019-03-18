@@ -5,7 +5,7 @@
 Step 1 : Create a virtual environment <br />
 Step 2 : Install python 3.6 , django 1.11 and MySQL <br /> 
 
-## Installation
+## Installations
 
 To install python :
 
