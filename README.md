@@ -8,12 +8,12 @@ Step 2 : Install python 3.6 , django 1.11 and MySQL
 
 To install python :
 
-Add repository : 
+.Add repository : 
 
 > sudo add-apt-repository ppa:jonathonf/python-3.6
 
 
-Check updates  : 
+.Check updates  : 
 
 > sudo apt-get update
 
