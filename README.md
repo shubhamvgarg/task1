@@ -14,32 +14,31 @@ Add repository :
 
 
 Check updates  : 
-'''
-sudo apt-get update
-'''
+
+> sudo apt-get update
+
 Install python : 
-'''
-sudo apt-get install python3.6
-'''
+
+> sudo apt-get install python3.6
+
 To check installed version : 
-'''
-python3 -V
-'''
+
+> python3 -V
+
 Install pip : 
-'''
-sudo apt-get install python3-pip
-'''
+
+> sudo apt-get install python3-pip
+
 To install django : 
-'''
-pip install Django==1.11
-'''
+
+> pip install Django==1.11
+
 To install MySQL : 
-'''
-sudo apt-get -y -f install mysql-client mysql-server
-'''
+
+> sudo apt-get -y -f install mysql-client mysql-server
+
 While installing MySQL there will be prompts asking for username and password. Set username="root" and password="root".
 
 To install MySQL python connector :
-'''
-pip install mysql-connector-python
-'''
+
+> pip install mysql-connector-python
