@@ -1,5 +1,4 @@
-# task1
-FOSSEE Summer Fellowship 2019: Task 1: Django Image Gallery
+# task1 : FOSSEE Summer Fellowship 2019: Task 1: Django Image Gallery
 
 ## Requirements
 
@@ -17,15 +16,15 @@ To install python :
 
 > sudo apt-get update
 
-*Install python : 
+* Install python : 
 
 > sudo apt-get install python3.6
 
-*To check installed version : 
+* To check installed version : 
 
 > python3 -V
 
-*Install pip : 
+* Install pip : 
 
 > sudo apt-get install python3-pip
 
