@@ -51,7 +51,7 @@ To install mysqlclient :
 
 ## Description
 
-You can add any number of images. The images will be stored in the "media" folder. If user uploads multiple images with the same name the images will be saved with the unique ID appended to the file name. Ex: <original filename><unique_id><.extension>
+You can add any number of images. The images will be stored in the "media" folder. If user uploads multiple images with the same name the images will be saved with the unique ID appended to the file name. Ex: <original_filename><unique_id><.extension>
 
 ## How to use
 
