@@ -45,3 +45,5 @@ To install MySQL python connector :
 > pip install mysql-connector-python
 
 ## How to use
+
+<a href="https://imgflip.com/gif/2wvxet"><img src="https://i.imgflip.com/2wvxet.gif" title="made at imgflip.com"/></a>
