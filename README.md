@@ -46,7 +46,7 @@ To install MySQL python connector :
 
 To install mysqlclient :
 
-> pip3 install mysqlclient
+> pip install mysqlclient
 
 
 ## Description
