@@ -46,4 +46,5 @@ To install MySQL python connector :
 
 ## How to use
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HJY9nH6G20o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/HJY9nH6G20o&feature=youtu.be/maxresdefault.jpg)](https://youtu.be/HJY9nH6G20o)
+
