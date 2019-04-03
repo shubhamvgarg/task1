@@ -10,8 +10,10 @@ from django.conf import settings
 
 
 def Upload(request):
+    #if request is get request
     if request.method=='GET':
         return render(request,"dynamic.html",{})
+    #if request is post request
     if request.method=='POST':
         obj=ImageFiles.objects.create()
 
@@ -21,6 +23,7 @@ def Upload(request):
         obj.Description=request.POST["Description"]
         obj.save();
         print(obj.id)
+        #save all images one by one
         for i in val:
             name=i.name
             path = default_storage.save(name, ContentFile(i.read()))
