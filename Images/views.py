@@ -22,6 +22,7 @@ def Upload(request):
         obj.Title=request.POST["Title"]
         obj.Description=request.POST["Description"]
         obj.save();
+        #Create ImageFiles object and use it id as foreign key in Image_Attachment
         print(obj.id)
         #save all images one by one
         for i in val:
@@ -29,5 +30,6 @@ def Upload(request):
             path = default_storage.save(name, ContentFile(i.read()))
             j=Image_Attachment.objects.create(key=obj,file=path)
         v=list(map(lambda x: "../media/"+x.file,Image_Attachment.objects.filter(key_id=obj.id)))
+        #return data for visualization
         return render(request,'images.html',{'Title':obj.Title,'Description':obj.Description,"path":v})
 
